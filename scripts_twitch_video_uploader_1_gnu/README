@@ -1,0 +1,2 @@
+Call ./clients/tv.twitch/twitch_video_uploader_1/workflows/twitch_video_uploader/twitch_video_uploader_2/run.sh
+Before Twitch authentication, please make sure that you don't have any browser window opened.
