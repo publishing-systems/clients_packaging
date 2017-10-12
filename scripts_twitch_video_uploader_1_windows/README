@@ -1,1 +1,2 @@
-If you run the uploader, make sure that you don't have any browser window open before authentication.
+Before Twitch authentication, please make sure that you don't have any browser window opened.
+As the Twitch website is using the same v5 API, it looks like the key revocation at the end of the upload process might lead to problems when continuing with using the website despite of different client IDs, an issue already reported to Twitch. It appears that one can fix this by just going to the Settings -> Connections page, as this might renew the key for the website.

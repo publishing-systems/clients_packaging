@@ -1,2 +1,10 @@
 @ECHO OFF
-CALL ./clients/tv.twitch/twitch_video_uploader_1/workflows/twitch_video_uploader/twitch_video_uploader_2/run.bat
+setlocal
+cd ./clients/
+cd ./tv.twitch/
+cd ./twitch_video_uploader_1/
+cd ./workflows/
+cd ./twitch_video_uploader/
+cd ./twitch_video_uploader_2/
+CALL run.bat
+cp log.txt ../../../../../../
